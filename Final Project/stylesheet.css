@@ -59,28 +59,6 @@ ul#nav {
 
 }
 
-.slide-viewer {
-	position: relative;
-	overflow: hidden;
-	height: 328px;
-}
-
-.slide-group {
-	width: 100%;
-	height: 100%;
-	position: relative;
-}
-
-.slide {
-	width: 100%;
-	height: 100%;
-	display: none;
-	position: absolute;
-}
-
-.slide:first-child {
-	display: block;
-}
 
 h1 {
 	font-family: "american typewriter";
@@ -109,6 +87,34 @@ p {
 
 	}
 
+/*start slideshow*/
+
+.slide-viewer {
+	position: relative;
+	overflow: hidden;
+	height: 328px;
+}
+
+.slide-group {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.slide {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+}
+
+.slide:first-child {
+	display: block;
+}
+
+/*end slideshow*/
+
+
 div#kelly img {
 	position: relative;
 	float: right;
@@ -136,6 +142,7 @@ div#email a:hover {
 	color: rgb(217,113,224);
 }
 
+
 ul#nav-subpages {
 	padding-top: 70px;
 	margin-left: 10%;
@@ -160,7 +167,16 @@ ul#nav-subpages {
 	color: rgb(120,130,133);
 }
 
-#nav-subpages li:first-child {
+#nav-subpages a:hover {
+	text-decoration: none;
+	color: rgb(100,155,245);
+	/*color: rgb(47,92,34);*/
+	font-size: 21px;
+	font-style: bold;
+}
+
+
+#nav-subpages li.active {
 	text-decoration: none;
 	font-family: "american typewriter";
 	font-size: 20px;
@@ -168,7 +184,7 @@ ul#nav-subpages {
 	background-color: rgb(147,155,157);
 }
 
-#nav-subpages li:first-child a:hover {
+#nav-subpages li.active a:hover {
 	text-decoration: none;
 	font-size: 20px;
 	font-family: "american typewriter";
@@ -176,7 +192,7 @@ ul#nav-subpages {
 	background-color: rgb(147,155,157);
 }
 
-#nav-subpages li:first-child a:visited {
+#nav-subpages li.active a:visited {
 	text-decoration: none;
 	font-size: 20px;
 	font-family: "american typewriter";
@@ -194,6 +210,27 @@ div#banner-content a:link {
 	text-decoration: none;
 	/*-webkit-text-stroke: .2px rgb(146,235,235);*/
 }
+
+div#banner-content a:active {
+	font-family: "lucida handwriting";
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2px;
+	text-decoration: none;
+}
+
+div#banner-content a:visited {
+	font-family: "lucida handwriting";
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2px;
+	text-decoration: none;
+} 
+
  #post1 img {
  	float: left;
  	padding-top: 10px;
@@ -201,62 +238,63 @@ div#banner-content a:link {
 
  #post2 img {
  	float: right;
- 	padding-top: 50px;
+ 	padding-top: 60px;
  }
 
 #post3 img {
  	float: left;
- 	padding-top: 50px;
+ 	padding-top: 60px;
  }
 
 #post4 img {
  	float: right;
- 	padding-top: 50px;
+ 	padding-top: 60px;
  }
 
 #post5 img {
  	float: left;
- 	padding-top: 50px;
+ 	padding-top: 60px;
  }
 
 #post6 img {
  	float: right;
- 	padding-top: 50px;
+ 	padding-top: 60px;
  }
 
 #post7 img {
  	float: left;
- 	padding-top: 50px;
+ 	padding-top: 60px;
  }
 
 #post8 img {
  	float: right;
- 	padding-top: 50px;
+ 	padding-top: 60px;
  }
 
 #post9 img {
  	float: left;
- 	padding-top: 50px;
+ 	padding-top: 60px;
  }
 
 #post10 img {
  	float: right;
- 	padding-top: 50px;
+ 	padding-top: 60px;
  }
 
 #post11 img {
  	float: left;
- 	padding-top: 50px;
+ 	padding-top: 60px;
  }
 
 #post12 img {
  	float: right;
- 	padding-top: 50px;
+ 	padding-top: 60px;
  }
 
 #post13 img {
  	float: left;
- 	padding-top: 50px;
+ 	padding-top: 60px;
+ 	padding-bottom: 60px;
  }
 
 body {
