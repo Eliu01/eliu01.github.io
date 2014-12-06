@@ -1,0 +1,265 @@
+div#banner {
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 75px;
+	background-color: rgba(48,206,235,.57);
+}
+
+div#banner-content {
+	font-family: "lucida handwriting";
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2px;
+	/*-webkit-text-stroke: .2px rgb(146,235,235);*/
+}
+
+div#banner-content img {
+	position: fixed;
+	float:left;
+	position: relative;
+	left: 110px;
+	vertical-align: middle;
+	bottom: 2px;
+}
+
+ul#nav {
+	padding-top: 70px;
+	margin-left: 10%;
+	margin-right: 8%;
+}
+
+#nav li {
+	display: inline;
+	font-family: "american typewriter";
+	font-size: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+} 
+
+#nav a:link {
+	text-decoration: none;
+	color: rgb(120,130,133);
+}
+
+#nav a:visited {
+	text-decoration: none;
+	color: rgb(120,130,133);
+}
+
+#nav a:hover {
+	text-decoration: none;
+	color: rgb(100,155,245);
+	/*color: rgb(47,92,34);*/
+	font-size: 21px;
+	font-style: bold;
+
+}
+
+.slide-viewer {
+	position: relative;
+	overflow: hidden;
+	height: 328px;
+}
+
+.slide-group {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.slide {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+}
+
+.slide:first-child {
+	display: block;
+}
+
+h1 {
+	font-family: "american typewriter";
+	font-size: 30px;
+	font-style: bold;
+	color: rgb(48,206,235);
+	margin-left: 110px;
+}
+
+h2 {
+	font-family: "lucida handwriting";
+	font-size: 20px;
+	font-style: bold;
+	color: rgb(105,176,94);
+	margin-left: 110px;
+}
+
+p {
+	font-family: "american typewriter";
+	font-size: 16px;
+	color: rgb(39,39,39);
+	margin-left: 110px;
+	margin-right: 0;
+	position: relative;
+	width: 450px;
+
+	}
+
+div#kelly img {
+	position: relative;
+	float: right;
+	width: 200px;
+	margin-right: 11%;
+	padding-bottom: 0;
+}
+
+div#email a:link {
+	font-family: "american typewriter";
+	float: right;
+	margin-right: 14%;
+	/*margin-top: 0;
+	padding-top: 0;*/
+	font-size: 24px;
+	font-style: bold;
+	color: rgb(206,194,11);
+	text-decoration: none;
+}
+
+div#email a:hover {
+	font-size: 20px;
+	text-decoration: underline;
+	font-style: bold;
+	color: rgb(217,113,224);
+}
+
+ul#nav-subpages {
+	padding-top: 70px;
+	margin-left: 10%;
+	margin-right: 8%;
+}
+
+#nav-subpages li {
+	display: inline;
+	font-family: "american typewriter";
+	font-size: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#nav-subpages a:link {
+	text-decoration: none;
+	color: rgb(120,130,133);
+}
+
+#nav-subpages a:visited {
+	text-decoration: none;
+	color: rgb(120,130,133);
+}
+
+#nav-subpages li:first-child {
+	text-decoration: none;
+	font-family: "american typewriter";
+	font-size: 20px;
+	color: rgb(255,255,255);
+	background-color: rgb(147,155,157);
+}
+
+#nav-subpages li:first-child a:hover {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "american typewriter";
+	color: white;
+	background-color: rgb(147,155,157);
+}
+
+#nav-subpages li:first-child a:visited {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "american typewriter";
+	color: white;
+	background-color: rgb(147,155,157);
+}
+
+div#banner-content a:link {
+	font-family: "lucida handwriting";
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2px;
+	text-decoration: none;
+	/*-webkit-text-stroke: .2px rgb(146,235,235);*/
+}
+ #post1 img {
+ 	float: left;
+ 	padding-top: 10px;
+ }
+
+ #post2 img {
+ 	float: right;
+ 	padding-top: 50px;
+ }
+
+#post3 img {
+ 	float: left;
+ 	padding-top: 50px;
+ }
+
+#post4 img {
+ 	float: right;
+ 	padding-top: 50px;
+ }
+
+#post5 img {
+ 	float: left;
+ 	padding-top: 50px;
+ }
+
+#post6 img {
+ 	float: right;
+ 	padding-top: 50px;
+ }
+
+#post7 img {
+ 	float: left;
+ 	padding-top: 50px;
+ }
+
+#post8 img {
+ 	float: right;
+ 	padding-top: 50px;
+ }
+
+#post9 img {
+ 	float: left;
+ 	padding-top: 50px;
+ }
+
+#post10 img {
+ 	float: right;
+ 	padding-top: 50px;
+ }
+
+#post11 img {
+ 	float: left;
+ 	padding-top: 50px;
+ }
+
+#post12 img {
+ 	float: right;
+ 	padding-top: 50px;
+ }
+
+#post13 img {
+ 	float: left;
+ 	padding-top: 50px;
+ }
+
+body {
+	overflow-x:hidden;
+}
+
