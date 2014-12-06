@@ -12,8 +12,19 @@
 <!--End of web page information-->
 
 <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+<!-- include jquery library -->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<!-- include cycle plug-in -->
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
 
-<!-- <script type="text/javascript" src="slider.js"></script> -->
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slides').cycle({
+        fx: 'fade'
+    });
+});
+</script>
+
 
 </head>
 
