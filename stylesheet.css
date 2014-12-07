@@ -28,8 +28,13 @@ div#banner-content img {
 
 ul#nav {
 	padding-top: 70px;
-	margin-left: 10%;
+	margin-left: 12%;
 	margin-right: 8%;
+	/*width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	position:absolute;*/
+
 }
 
 #nav li {
@@ -65,7 +70,8 @@ h1 {
 	font-size: 30px;
 	font-style: bold;
 	color: rgb(48,206,235);
-	margin-left: 110px;
+	margin-left: 10%;
+	margin-top: 3%;
 }
 
 h2 {
@@ -73,17 +79,18 @@ h2 {
 	font-size: 20px;
 	font-style: bold;
 	color: rgb(105,176,94);
-	margin-left: 110px;
+	margin-left: 10%;
 }
 
 p {
 	font-family: "american typewriter";
 	font-size: 16px;
 	color: rgb(39,39,39);
-	margin-left: 110px;
+	/*margin-left: 110px;*/
+	margin-left: 10%;
 	margin-right: 0;
 	position: relative;
-	width: 450px;
+	width: 475px;
 
 	}
 
@@ -115,27 +122,25 @@ p {
 /*end slideshow*/
 
 
-div#kelly img {
+div#kelly {
 	position: relative;
 	float: right;
 	width: 200px;
-	margin-right: 11%;
+	margin-right: 12%;
 	padding-bottom: 0;
 }
 
-div#email a:link {
+
+div#kelly a:link {
 	font-family: "american typewriter";
-	float: right;
-	margin-right: 14%;
-	/*margin-top: 0;
-	padding-top: 0;*/
+	/*float: right;*/
 	font-size: 24px;
 	font-style: bold;
 	color: rgb(206,194,11);
 	text-decoration: none;
 }
 
-div#email a:hover {
+div#kelly a:hover {
 	font-size: 20px;
 	text-decoration: underline;
 	font-style: bold;
@@ -145,9 +150,12 @@ div#email a:hover {
 
 ul#nav-subpages {
 	padding-top: 70px;
-	margin-left: 10%;
+	margin-left: 12%;
 	margin-right: 8%;
-}
+	/*width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+*/}
 
 #nav-subpages li {
 	display: inline;
@@ -232,72 +240,104 @@ div#banner-content a:visited {
 } 
 
  #post1 img {
- 	float: left;
+ 	/*float: left;*/
  	padding-top: 10px;
+ 	width:100%;
+ 	height:100%;
  }
 
  #post2 img {
- 	float: right;
+ 	/*float: right;*/
  	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
+
  }
 
 #post3 img {
- 	float: left;
+ 	/*float: left;*/
  	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
  }
 
 #post4 img {
  	float: right;
  	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
  }
 
 #post5 img {
  	float: left;
  	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
  }
 
 #post6 img {
  	float: right;
  	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
  }
 
 #post7 img {
  	float: left;
  	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
  }
 
 #post8 img {
  	float: right;
  	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
  }
 
 #post9 img {
  	float: left;
  	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
  }
 
 #post10 img {
  	float: right;
  	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
  }
 
 #post11 img {
  	float: left;
  	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
  }
 
 #post12 img {
  	float: right;
  	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
  }
 
 #post13 img {
  	float: left;
  	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
  }
 
+div.slides {
+	margin-right: auto;
+	margin-left: auto;
+}
 
 body {
 	overflow-x:hidden;
+	padding-bottom: 30px;
 }
 
