@@ -240,14 +240,33 @@ div#banner-content a:visited {
 } 
 
  #post1 img {
- 	/*float: left;*/
+ 	position: relative;
  	padding-top: 10px;
  	width:100%;
  	height:100%;
  }
 
+ #post1 h3 {
+ 	font-family: "american typewriter";
+ 	font-size: 30px;
+ 	font-style: bold;
+ 	position: absolute;
+ 	top: 18%;
+ 	right: 14%;
+ 	color: rgb(84,217,217);
+ }
+
+ #post1 p {
+ 	font-family: "rockwell";
+ 	font-size: 20px;
+ 	position: absolute;
+ 	top: 27%;
+ 	right: 4%;
+ 	width: 35%;
+ 	color: rgb(39,39,39);
+ }
+
  #post2 img {
- 	/*float: right;*/
  	padding-top: 60px;
  	width:100%;
  	height:100%;
@@ -255,77 +274,66 @@ div#banner-content a:visited {
  }
 
 #post3 img {
- 	/*float: left;*/
  	padding-top: 60px;
  	width:100%;
  	height:100%;
  }
 
 #post4 img {
- 	float: right;
  	padding-top: 60px;
  	width:100%;
  	height:100%;
  }
 
 #post5 img {
- 	float: left;
  	padding-top: 60px;
  	width:100%;
  	height:100%;
  }
 
 #post6 img {
- 	float: right;
  	padding-top: 60px;
  	width:100%;
  	height:100%;
  }
 
 #post7 img {
- 	float: left;
  	padding-top: 60px;
  	width:100%;
  	height:100%;
  }
 
 #post8 img {
- 	float: right;
  	padding-top: 60px;
  	width:100%;
  	height:100%;
  }
 
 #post9 img {
- 	float: left;
  	padding-top: 60px;
  	width:100%;
  	height:100%;
  }
 
 #post10 img {
- 	float: right;
  	padding-top: 60px;
  	width:100%;
  	height:100%;
  }
 
 #post11 img {
- 	float: left;
  	padding-top: 60px;
  	width:100%;
  	height:100%;
  }
 
 #post12 img {
- 	float: right;
  	padding-top: 60px;
  	width:100%;
  	height:100%;
  }
 
 #post13 img {
- 	float: left;
  	padding-top: 60px;
  	width:100%;
  	height:100%;
