@@ -266,6 +266,46 @@ div#banner-content a:visited {
  	color: rgb(39,39,39);
  }
 
+/* saul added this on Sun Dec  7 19:15:25 EST 2014 */
+
+.post_new {
+}
+
+.post_new img {
+ 	padding-top: 10px;
+ 	width:100%;
+ 	height:100%;
+}
+
+.post_new .treat_info {
+	position: absolute;
+	width: 200px;
+}
+
+.post_new .right_treat {
+	right: 350px;
+}
+
+.post_new .left_treat {
+	left: 50px;
+}
+
+.post_new .treat_info h3 {
+	font-family: "american typewriter";
+ 	font-size: 30px;
+ 	font-style: bold;
+ 	color: rgb(84,217,217);
+}
+
+.post_new .treat_info p {
+	font-family: "rockwell";
+ 	font-size: 20px;
+ 	color: rgb(39,39,39);
+}
+
+/* end saul's changes */
+
+
  #post2 img {
  	padding-top: 60px;
  	width:100%;
